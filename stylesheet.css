@@ -303,8 +303,7 @@ img{
 }
 
 img:hover {
-    
-    transition: 2s;
-    filter:sepia(40%);
-    transform: scale(80%);
+     transition: 3s;
+    filter:brightness(150%);
+    transform:perspective(600px) rotatey(10deg) ;
 }
