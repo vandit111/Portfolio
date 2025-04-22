@@ -1,0 +1,443 @@
+
+
+/* ***************Main********************** */
+body {
+    font-family: 'poppins' , sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom:20px ;
+    box-sizing: border-box;
+}
+
+header {
+    background: #010123;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;   
+}
+
+
+header .header_home {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+footer {
+
+    background: black;
+    font-size: .8em;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+}
+
+footer .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+
+
+/* *********************Home Page*************************** */
+
+/* Index Header */
+#index_h1{
+    color: white;
+   text-align: center;
+}
+
+/* Setup Background */
+#background{
+    background-image: url(images/background.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+/* Setup Layout */
+#container_homepage {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+    padding: 10px 20px;
+    padding-bottom: 20px;
+}
+
+
+#container_homepage .tagline {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+/*body headings*/
+h2 {     
+    color: #ffffff;
+    font-size: 2em;
+}
+/*Body Paragraphs*/
+p {         
+    font-size: 1.1em;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.body_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.contact_us_home{
+    display: flex;
+    flex-direction: row;
+    float: center;
+}
+
+/* Figure Setup for links */
+figure{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    font-weight: bold;
+}
+
+/* Links text styling */
+.links {
+    display: inline-block;
+    background: #007acc;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Links filters */
+.links:hover {
+    background: #005f99;
+}
+
+
+
+
+/* **********************About Me Page******************** */
+
+/* Main Container */
+.main_about{ 
+    background: url(images/background.jpg);      
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    
+}
+
+/* Cotainer for Image */
+.image{
+    display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  width: 40%; 
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+/* Container for Description Headings */
+#desp{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  color: #fff;
+  text-align: center; 
+  border-radius: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: rgba(2, 27, 39, 0.463); 
+  width: 80%;
+  padding-bottom: 30px;
+
+}
+
+/* Image */
+#about_img{
+    width: 90%; 
+    margin-bottom: 20px;
+}
+
+
+#about{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 50%; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Paragraphs styling */
+#p1{
+  width: 80%; 
+  padding: 20px;
+  color: white;
+  background-image: linear-gradient(#056d90, #3ba4e6);
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 3px 0 rgb(7, 7, 7);
+  margin-bottom: 15px; 
+  text-align: center;
+    
+}
+
+
+/* ********************Contact Page**************************** */
+
+/* Container for Form */
+form{
+    
+    width: 30%;
+    margin-top: 30px;
+    padding-bottom: 100px;
+    float: left;
+}
+
+h1{
+text-align: center;
+
+}
+
+/* Image logo */
+#contact_img{
+    width: 10%; 
+    float: left;
+    margin-left:10px;
+}
+
+label  {
+    font-size: 1em;
+    font-weight: 900;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: block;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea {
+width: 100%;
+padding: 10px;
+margin-top: 10px;
+}
+
+input[type=submit] {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(34, 54, 4);
+    border: none;
+    border-radius: 30px;
+    }
+
+    input[type=submit]:hover{
+        background-color: green;
+        color: white;
+        box-shadow: 4px 4px 0 grey;
+        padding-bottom: 20px;
+    }
+#iframe_Contact{ 
+    float: right;
+    margin-right: 30px;
+    padding-bottom: 50px;
+    width: 50%;
+}
+
+
+/*******************Work******************/
+
+/* Heading */
+h1{
+   color: rgb(100, 209, 242);
+   background-color: rgba(2, 34, 49, 0.381); 
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2.5EM;
+   
+   }
+/* Captions */
+.caption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 10%;
+    
+}
+
+/* Row Container */
+.row{
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+    align-items: center;
+}
+
+/* Coloumn Container */
+
+.coloumn{
+    float:left;
+    padding-left: 50px;
+    box-sizing: border-box;
+    width: 50%;    
+}
+
+/* Image Styling */
+img{
+    width: 80%;
+    height: 50%;
+    border-radius: 10%;
+    padding: 3%;
+    object-fit: cover;
+}
+
+/* Image Styling with filters */
+img:hover {
+    
+    transition: 2s;
+    filter:sepia(40%);
+    transform: scale(80%);
+}
+
+
+/* Burger Menu */
+
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --theme-color-red: rgb(217, 76, 76);
+    --theme-color-green: rgb(59, 146, 205);
+    --theme-color-darkGrey: rgb(3, 27, 51);
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 100%;
+}
+
+/* ******* GRID WRAPPER ******** */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 20% repeat(3, 1fr);
+    grid-template-rows: 130px 500px auto auto;
+}
+
+/* ******* GRID WRAPPER CHILDREN ******** */
+
+header {
+    grid-area: 1/1/2/5;
+
+    background-color: var(--theme-color-darkGrey);
+    color: white;
+}
+
+.burger {
+    display: inline-block; /* display:inline block so that the transition shows properly */
+    width: 50px;
+    aspect-ratio: 1;
+    font-size: 2em;
+    color: var(--theme-color-darkGrey);
+    background-color: var(--theme-color-green);
+    padding: 4px;
+    text-align: center;
+
+    border-radius: 50%;
+    position: relative;
+    top:20px;
+    left: 20px;
+}
+
+.burger:hover {
+    opacity: .75;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.logo {
+    text-align: center;
+}
+
+/* Navigation Container setup */
+.nav-container {
+    grid-area: 2/1/4/2;
+
+    background-color: var(--theme-color-darkGrey);
+    
+    z-index: 1;
+    position: absolute;
+    left: -450px; 
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+
+}
+
+nav a {
+    
+    color: white;
+    padding: 20px 0;
+    font-size: 1.3em;
+    text-decoration: none;
+    justify-content: flex-end;
+
+}
+
+
+
+
+/* ***** These three classes will be applied in the DOM with JavaScript ****** */
+
+.show-nav {
+    transform: translateX(450px);
+    transition: all 0.5s ease-in-out;
+}
+
+.hide-nav {
+    transform: translateX(0);
+    transition: all 0.5s ease-in-out;
+}
+
+#turn {
+    transform: rotate(180deg);
+    transition: all 0.5s ease-in-out;
+    background-color: var(--theme-color-red);
+    color: white;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width: 750px) {
+    .nav-container {
+      grid-area: 2/1/3/3;
+    }
+    .image-container>img {
+      aspect-ratio: 1;  
+    }
+  }
